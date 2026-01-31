@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>معرض الصور - النقاء لمكافحة الحشرات</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <!-- Preloader -->
+  <div class="preloader">
+    <div class="loader"></div>
+  </div>
+
+  <!-- Header & Navigation -->
+  <header class="header">
+    <div class="container">
+      <div class="logo">
+        <h1>النقاء لمكافحة الحشرات</h1>
+        <p>Al-Naqaa Pest Control</p>
+      </div>
+      <nav class="nav">
+        <a href="index.html">الرئيسية</a>
+        <a href="services.html">الخدمات</a>
+        <a href="about.html">من نحن</a>
+        <a href="articles.html">المقالات</a>
+        <a href="gallery.html" class="active">معرض الصور</a>
+        <a href="videos.html">الفيديوهات</a>
+        <a href="contact.html">اتصل بنا</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Page Title -->
+  <section class="page-header">
+    <h1>معرض أعمالنا</h1>
+    <p>صور من خدماتنا وأعمالنا المتقنة</p>
+  </section>
+
+  <!-- Gallery Section -->
+  <section class="gallery-section">
+    <div class="container">
+      <div class="gallery-grid">
+        <div class="gallery-item" onclick="openLightbox('images/gallery/1220 (1).png')">
+          <img src="images/gallery/1220 (1).png" alt="خدماتنا في مكافحة الحشرات">
+          <div class="overlay">
+            <i class="fas fa-search-plus"></i>
+          </div>
+        </div>
+        <div class="gallery-item" onclick="openLightbox('images/gallery/1220 (1)(1).png')">
+          <img src="images/gallery/1220 (1)(1).png" alt="معالجة احترافية">
+          <div class="overlay">
+            <i class="fas fa-search-plus"></i>
+          </div>
+        </div>
+        <div class="gallery-item" onclick="openLightbox('images/gallery/1220 (1)(2).png')">
+          <img src="images/gallery/1220 (1)(2).png" alt="تطبيق المعايير الدولية">
+          <div class="overlay">
+            <i class="fas fa-search-plus"></i>
+          </div>
+        </div>
+        <div class="gallery-item" onclick="openLightbox('images/gallery/1220 (1)(3).png')">
+          <img src="images/gallery/1220 (1)(3).png" alt="خدمة من الدرجة الأولى">
+          <div class="overlay">
+            <i class="fas fa-search-plus"></i>
+          </div>
+        </div>
+        <div class="gallery-item" onclick="openLightbox('images/gallery/Cockroachgelapplication.jpg')">
+          <img src="images/gallery/Cockroachgelapplication.jpg" alt="مكافحة الصراصير">
+          <div class="overlay">
+            <i class="fas fa-search-plus"></i>
+          </div>
+        </div>
+        <div class="gallery-item" onclick="openLightbox('images/gallery/b25316a7597aaec0532fe43c5cc11ac7.jpg')">
+          <img src="images/gallery/b25316a7597aaec0532fe43c5cc11ac7.jpg" alt="قبل وبعد المعالجة">
+          <div class="overlay">
+            <i class="fas fa-search-plus"></i>
+          </div>
+        </div>
+        <div class="gallery-item" onclick="openLightbox('images/gallery/cockroach.jpg')">
+          <img src="images/gallery/cockroach.jpg" alt="مكافحة فعالة">
+          <div class="overlay">
+            <i class="fas fa-search-plus"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lightbox Modal -->
+  <div id="lightbox" class="lightbox">
+    <span class="close" onclick="closeLightbox()">&times;</span>
+    <img class="lightbox-content" id="lightboxImage">
+    <a class="prev" onclick="changeLightbox(-1)">&#10094;</a>
+    <a class="next" onclick="changeLightbox(1)">&#10095;</a>
+  </div>
+
+  <!-- CTA Section -->
+  <section class="cta-section">
+    <div class="container">
+      <h2>هل تعجبك أعمالنا؟</h2>
+      <p>تواصل معنا الآن واحصل على خدمة مثل هذه</p>
+      <div class="cta-buttons">
+        <a href="https://wa.me/96550255870" class="btn btn-primary">واتساب</a>
+        <a href="tel:+96550255870" class="btn btn-secondary">اتصل</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>النقاء</h3>
+          <p>مركز متخصص في مكافحة الحشرات بالكويت</p>
+        </div>
+        <div class="footer-section">
+          <h3>تواصل معنا</h3>
+          <p>الهاتف: 50255870</p>
+          <p>البريد: info@alnaqaa.com</p>
+          <p>العنوان: 82JC+H9P، شارع 231، مدينة الكويت</p>
+        </div>
+        <div class="footer-section">
+          <h3>تابعنا</h3>
+          <div class="social-links">
+            <a href="https://wa.me/96550255870" title="واتساب"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://www.instagram.com/american9center/" target="_blank" title="إنستجرام"><i class="fab fa-instagram"></i></a>
+            <a href="#" title="فيسبوك"><i class="fab fa-facebook"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 النقاء لمكافحة الحشرات. جميع الحقوق محفوظة.</p>
+      </div>
+    </div>
+  </footer>
+
+  <aside aria-label="أدوات التواصل السريع">
+    <!-- Floating Action Buttons (FAB) -->
+  <div class="fab-container">
+    <a href="https://wa.me/96550255870" class="fab fab-whatsapp" title="واتساب">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+    <a href="tel:+96550255870" class="fab fab-call" title="اتصل">
+      <i class="fas fa-phone"></i>
+    </a>
+  </div>
+
+  <!-- Back to Top -->
+  <a href="#" class="back-to-top" title="العودة للأعلى">
+    <i class="fas fa-arrow-up"></i>
+  </a>
+  </aside>
+
+  <!-- Notification Container -->
+  <div id="notificationContainer"></div>
+
+  <script src="js/main.js"></script>
+  <script src="js/notifications.js"></script>
+  <script>
+    let currentImageIndex = 0;
+    const images = document.querySelectorAll('.gallery-item img');
+
+    function openLightbox(src) {
+      const lightbox = document.getElementById('lightbox');
+      const lightboxImage = document.getElementById('lightboxImage');
+      lightboxImage.src = src;
+      lightbox.style.display = 'block';
+      
+      currentImageIndex = Array.from(images).findIndex(img => img.src === src);
+    }
+
+    function closeLightbox() {
+      document.getElementById('lightbox').style.display = 'none';
+    }
+
+    function changeLightbox(n) {
+      currentImageIndex += n;
+      if (currentImageIndex >= images.length) currentImageIndex = 0;
+      if (currentImageIndex < 0) currentImageIndex = images.length - 1;
+      
+      const lightboxImage = document.getElementById('lightboxImage');
+      lightboxImage.src = images[currentImageIndex].src;
+    }
+
+    document.addEventListener('keydown', (e) => {
+      if (document.getElementById('lightbox').style.display === 'block') {
+        if (e.key === 'ArrowLeft') changeLightbox(-1);
+        if (e.key === 'ArrowRight') changeLightbox(1);
+        if (e.key === 'Escape') closeLightbox();
+      }
+    });
+  </script>
+</body>
+</html>

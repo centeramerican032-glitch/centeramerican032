@@ -1,0 +1,26 @@
+{
+  "name": "al-naqaa-pest-control",
+  "version": "1.0.0",
+  "description": "Professional pest control website for Al-Naqaa in Kuwait",
+  "main": "serve.js",
+  "scripts": {
+    "start": "node serve.js",
+    "test:axe": "node tests/axe-static.js",
+    "test:devices": "playwright test tests/device-tests.js",
+    "test:ci": "npm run test:axe && npm run test:devices"
+  },
+  "keywords": [
+    "pest-control",
+    "kuwait",
+    "arabic",
+    "rtl"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@axe-core/playwright": "^4.8.0",
+    "axe-core": "^4.8.0",
+    "jsdom": "^23.0.0",
+    "playwright": "^1.40.0"
+  }
+}

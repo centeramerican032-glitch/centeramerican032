@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>اتصل بنا - النقاء لمكافحة الحشرات</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <!-- Preloader -->
+  <div class="preloader">
+    <div class="loader"></div>
+  </div>
+
+  <!-- Header & Navigation -->
+  <header class="header">
+    <div class="container">
+      <div class="logo">
+        <h1>النقاء لمكافحة الحشرات</h1>
+        <p>Al-Naqaa Pest Control</p>
+      </div>
+      <nav class="nav">
+        <a href="index.html">الرئيسية</a>
+        <a href="services.html">الخدمات</a>
+        <a href="about.html">من نحن</a>
+        <a href="articles.html">المقالات</a>
+        <a href="gallery.html">معرض الصور</a>
+        <a href="videos.html">الفيديوهات</a>
+        <a href="contact.html" class="active">اتصل بنا</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Page Title -->
+  <section class="page-header">
+    <h1>اتصل بنا</h1>
+    <p>نحن هنا لمساعدتك والإجابة على جميع استفساراتك</p>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact-section">
+    <div class="container">
+      <div class="contact-grid">
+        
+        <!-- Contact Form -->
+        <div class="contact-form-wrapper">
+          <h2>أرسل لنا رسالة</h2>
+          <form id="contactForm" class="contact-form">
+            <div class="form-group">
+              <label for="name">الاسم الكامل</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+              <label for="phone">رقم الهاتف</label>
+              <input type="tel" id="phone" name="phone" required>
+            </div>
+            <div class="form-group">
+              <label for="email">البريد الإلكتروني</label>
+              <input type="email" id="email" name="email">
+            </div>
+            <div class="form-group">
+              <label for="service">الخدمة المطلوبة</label>
+              <select id="service" name="service">
+                <option value="">اختر الخدمة</option>
+                <option value="cockroaches">الصراصير</option>
+                <option value="ants">النمل</option>
+                <option value="bed-bugs">بق الفراش</option>
+                <option value="beetles">الخنافس</option>
+                <option value="mice">الفئران</option>
+                <option value="spiders">العناكب</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">الرسالة</label>
+              <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">إرسال الرسالة</button>
+            <p id="formMessage" class="form-message"></p>
+          </form>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="contact-info-wrapper">
+          <h2>معلومات التواصل</h2>
+          
+          <div class="contact-info-item">
+            <i class="fas fa-phone"></i>
+            <div>
+              <h3>الهاتف</h3>
+              <p><a href="tel:+96550255870">50255870</a></p>
+            </div>
+          </div>
+
+          <div class="contact-info-item">
+            <i class="fab fa-whatsapp"></i>
+            <div>
+              <h3>واتساب</h3>
+              <p><a href="https://wa.me/96550255870">50255870</a></p>
+            </div>
+          </div>
+
+          <div class="contact-info-item">
+            <i class="fas fa-envelope"></i>
+            <div>
+              <h3>البريد الإلكتروني</h3>
+              <p><a href="mailto:info@alnaqaa.com">info@alnaqaa.com</a></p>
+            </div>
+          </div>
+
+          <div class="contact-info-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <div>
+              <h3>الموقع</h3>
+              <p>82JC+H9P، شارع 231</p>
+              <p>مدينة الكويت</p>
+            </div>
+          </div>
+
+          <div class="contact-info-item">
+            <i class="fab fa-instagram"></i>
+            <div>
+              <h3>إنستجرام</h3>
+              <p><a href="https://www.instagram.com/american9center/" target="_blank">@american9center</a></p>
+            </div>
+          </div>
+
+          <div class="contact-info-item">
+            <i class="fas fa-clock"></i>
+            <div>
+              <h3>ساعات العمل</h3>
+              <p>24/7</p>
+              <small>متاح طول الوقت لخدمتك</small>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Map Section -->
+  <section class="map-section">
+    <div class="container">
+      <h2>موقعنا على الخريطة</h2>
+      <div class="map-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3441.3556525933644!2d47.97771!3d29.375938!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjnCsDIyJzMzLjQiTiA0N8KwNTgnNDUuNCJF!5e0!3m2!1sen!2skw!4v1234567890" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta-section">
+    <div class="container">
+      <h2>لا تتردد في التواصل معنا</h2>
+      <p>فريقنا جاهز لخدمتك في أي وقت</p>
+      <div class="cta-buttons">
+        <a href="https://wa.me/96550255870" class="btn btn-primary">
+          <i class="fab fa-whatsapp"></i> واتساب
+        </a>
+        <a href="tel:+96550255870" class="btn btn-secondary">
+          <i class="fas fa-phone"></i> اتصل
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>النقاء</h3>
+          <p>مركز متخصص في مكافحة الحشرات بالكويت</p>
+        </div>
+        <div class="footer-section">
+          <h3>تواصل معنا</h3>
+          <p>الهاتف: 50255870</p>
+          <p>البريد: info@alnaqaa.com</p>
+          <p>العنوان: 82JC+H9P، شارع 231، مدينة الكويت</p>
+        </div>
+        <div class="footer-section">
+          <h3>تابعنا</h3>
+          <div class="social-links">
+            <a href="https://wa.me/96550255870" title="واتساب"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://www.instagram.com/american9center/" target="_blank" title="إنستجرام"><i class="fab fa-instagram"></i></a>
+            <a href="#" title="فيسبوك"><i class="fab fa-facebook"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 النقاء لمكافحة الحشرات. جميع الحقوق محفوظة.</p>
+      </div>
+    </div>
+  </footer>
+
+  <aside aria-label="أدوات التواصل السريع">
+    <!-- Floating Action Buttons (FAB) -->
+  <div class="fab-container">
+    <a href="https://wa.me/96550255870" class="fab fab-whatsapp" title="واتساب">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+    <a href="tel:+96550255870" class="fab fab-call" title="اتصل">
+      <i class="fas fa-phone"></i>
+    </a>
+  </div>
+
+  <!-- Back to Top -->
+  <a href="#" class="back-to-top" title="العودة للأعلى">
+    <i class="fas fa-arrow-up"></i>
+  </a>
+  </aside>
+
+  <!-- Notification Container -->
+  <div id="notificationContainer"></div>
+
+  <script src="js/main.js"></script>
+  <script src="js/notifications.js"></script>
+  <script src="js/form-handler.js"></script>
+</body>
+</html>
