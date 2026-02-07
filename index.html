@@ -1,275 +1,449 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>النقاء لمكافحة الحشرات - الكويت</title>
-  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/responsive.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="شركة النظافه الذهبيه - أفضل شركة مكافحة حشرات، جل سحري، آمن على الأطفال، بدون مغادرة المنزل">
+    <title>شركة النظافه الذهبيه | مكافحة الحشرات</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-  <!-- Preloader -->
-  <div class="preloader">
-    <div class="loader"></div>
-  </div>
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <div class="logo-shield">🛡️</div>
+                    <div class="logo-text">
+                        <h1>النظافه الذهبيه</h1><span>خبراء مكافحة الحشرات</span>
+                    </div>
+                </div>
+                <button class="nav-toggle" id="navToggle"><span></span><span></span><span></span></button>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#home">الرئيسية</a></li>
+                    <li><a href="#features">مميزاتنا</a></li>
+                    <li><a href="#services">خدماتنا</a></li>
+                    <li><a href="#articles">نصائح</a></li>
+                    <li><a href="#contact">تواصل معنا</a></li>
+                </ul>
+                <a href="https://wa.me/50255870" class="call-btn">📱 واتساب</a>
+            </div>
+        </nav>
+    </header>
 
-  <!-- Header & Navigation -->
-  <header class="header">
-    <div class="container">
-      <div class="logo">
-        <h1>النقاء لمكافحة الحشرات</h1>
-        <p>Al-Naqaa Pest Control</p>
-      </div>
-      <nav class="nav">
-        <a href="index.html">الرئيسية</a>
-        <a href="services.html">الخدمات</a>
-        <a href="about.html">من نحن</a>
-        <a href="articles.html">المقالات</a>
-        <a href="gallery.html">معرض الصور</a>
-        <a href="videos.html">الفيديوهات</a>
-        <a href="contact.html">اتصل بنا</a>
-      </nav>
-      <button class="menu-toggle" id="menuToggle">
-        <i class="fas fa-bars"></i>
-      </button>
+    <section class="hero" id="home">
+        <div class="hero-bg"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">🏆 الشركة الأولى في مكافحة الحشرات 🏆</div>
+                <h1 class="hero-title"><span class="gradient-text">شركة النظافه الذهبيه</span><br>للقضاء علي الحشرات
+                    نهائياً</h1>
+                <p class="hero-subtitle">
+                    🔥 <strong>تخلص من الحشرات للأبد!</strong> 🔥<br>
+                    نستخدم <strong>أحدث التقنيات العالمية</strong> و<strong>الجل السحري الألماني</strong><br>
+                    ✅ آمن 100% على الأطفال والحوامل ✅ بدون رائحة ✅ بدون مغادرة المنزل
+                </p>
+                <div class="promo-badges">
+                    <div class="promo-badge">👶 آمن على الأطفال</div>
+                    <div class="promo-badge">🏠 بدون مغادرة المنزل</div>
+                    <div class="promo-badge">💨 بدون رائحة</div>
+                    <div class="promo-badge">✨ جل سحري ألماني</div>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <div class="stat-icon">📅</div><span class="stat-number" data-target="15">0</span>+<span
+                            class="stat-label">سنة خبرة</span>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-icon">👥</div><span class="stat-number" data-target="10000">0</span>+<span
+                            class="stat-label">عميل سعيد</span>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-icon">🏆</div><span class="stat-number" data-target="100">0</span>%<span
+                            class="stat-label">نتائج مضمونة</span>
+                    </div>
+                </div>
+                <div class="hero-buttons">
+                    <a href="https://wa.me/50255870?text=مرحباً، أريد الاستفسار عن خدمات مكافحة الحشرات"
+                        class="btn btn-primary glow-btn">💬 احجز الآن - واتساب</a>
+                    <a href="tel:50255870" class="btn btn-secondary">📞 اتصل: 50255870</a>
+                </div>
+                <div class="trust-text">🔒 استشارة مجانية • ضمان كامل • دفع بعد النتيجة</div>
+            </div>
+            <div class="hero-visual">
+                <div class="pest-orbit">
+                    <div class="orbit-ring"></div>
+                    <div class="orbit-ring"></div>
+                    <div class="pest-float">🪳</div>
+                    <div class="pest-float">🐜</div>
+                    <div class="pest-float">🦟</div>
+                    <div class="pest-float">🐀</div>
+                    <div class="pest-float">🕷️</div>
+                    <div class="center-shield">🛡️</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="promo-strip">
+        <div class="strip-content">
+            <div class="strip-item">🪳 صراصير</div>
+            <div class="strip-item">🐜 نمل</div>
+            <div class="strip-item">🦟 بعوض</div>
+            <div class="strip-item">🐀 فئران</div>
+            <div class="strip-item">🕷️ عناكب</div>
+            <div class="strip-item">🛏️ بق الفراش</div>
+            <div class="strip-item">🪳 صراصير</div>
+            <div class="strip-item">🐜 نمل</div>
+            <div class="strip-item">🦟 بعوض</div>
+            <div class="strip-item">🐀 فئران</div>
+        </div>
+    </section>
+
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">⭐ لماذا نحن الأفضل؟ ⭐</span>
+                <h2 class="section-title">مميزات حصرية لا تجدها عند غيرنا</h2>
+                <p class="section-subtitle">نقدم لك أفضل خدمة بأحدث التقنيات وأعلى معايير الأمان</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card premium">
+                    <div class="feature-icon">✨</div>
+                    <h3>الجل السحري الألماني</h3>
+                    <p>تقنية ألمانية حديثة تقضي على الصراصير والنمل من الجذور خلال 48 ساعة فقط! النتيجة مضمونة 100%</p>
+                    <div class="feature-tag">🔥 الأكثر فعالية</div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">👶</div>
+                    <h3>آمن 100% على الأطفال</h3>
+                    <p>مبيدات معتمدة دولياً وآمنة تماماً على الأطفال والحوامل والمسنين. صحة عائلتك أولويتنا!</p>
+                    <div class="feature-tag">✅ معتمد دولياً</div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🏠</div>
+                    <h3>بدون مغادرة المنزل</h3>
+                    <p>لا حاجة للخروج من البيت! نستخدم مبيدات بدون رائحة ولا تحتاج لإخلاء المكان نهائياً</p>
+                    <div class="feature-tag">💨 بدون رائحة</div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>نتائج فورية ومضمونة</h3>
+                    <p>شاهد النتيجة من أول يوم! نقدم ضمان كتابي على جميع خدماتنا مع متابعة مجانية</p>
+                    <div class="feature-tag">📋 ضمان مكتوب</div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔬</div>
+                    <h3>أحدث طرق الرش العالمية</h3>
+                    <p>نستخدم تقنية الرش الضبابي والحقن الجداري وأحدث الأجهزة المستوردة من ألمانيا وأمريكا</p>
+                    <div class="feature-tag">🌍 تقنية عالمية</div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">💰</div>
+                    <h3>أسعار لا تُقارن</h3>
+                    <p>أفضل الأسعار في السوق مع خصومات خاصة للعقود السنوية. ادفع بعد رؤية النتيجة!</p>
+                    <div class="feature-tag">🎁 خصم 20%</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-box">
+                <div class="cta-content">
+                    <h2>🔥 عرض خاص لفترة محدودة! 🔥</h2>
+                    <p>احصل على <strong>خصم 20%</strong> + <strong>فحص مجاني</strong> + <strong>متابعة شهرية</strong>
+                    </p>
+                    <div class="cta-features">
+                        <span>✅ استشارة مجانية</span>
+                        <span>✅ كشف مجاني</span>
+                        <span>✅ ضمان سنة كاملة</span>
+                    </div>
+                </div>
+                <a href="https://wa.me/50255870?text=مرحباً، أريد الاستفادة من العرض الخاص"
+                    class="btn btn-white glow-btn">📱 احجز العرض الآن</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">⚡ خدماتنا المتميزة ⚡</span>
+                <h2 class="section-title">حلول شاملة لجميع أنواع الحشرات</h2>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🪳</div>
+                    <h3>مكافحة الصراصير</h3>
+                    <p>القضاء النهائي على الصراصير بـ<strong>الجل السحري الألماني</strong>. نتائج من أول يوم!</p>
+                    <ul class="service-list">
+                        <li>✅ جل ألماني فعال</li>
+                        <li>✅ بدون رائحة</li>
+                        <li>✅ ضمان 6 أشهر</li>
+                    </ul>
+                    <a href="https://wa.me/50255870?text=مرحباً، أريد حجز خدمة مكافحة الصراصير بالجل السحري"
+                        class="service-btn">📱 احجز الآن</a>
+                </div>
+                <div class="service-card featured">
+                    <div class="featured-badge">⭐ الأكثر طلباً</div>
+                    <div class="service-icon">🐜</div>
+                    <h3>مكافحة النمل</h3>
+                    <p>تدمير مستعمرات النمل من المصدر. تقنية حديثة تقضي على الملكة والمستعمرة كاملة!</p>
+                    <ul class="service-list">
+                        <li>✅ قضاء على الملكة</li>
+                        <li>✅ آمن للأطفال</li>
+                        <li>✅ ضمان سنة</li>
+                    </ul>
+                    <a href="https://wa.me/50255870?text=مرحباً، أريد حجز خدمة مكافحة النمل" class="service-btn">📱 احجز
+                        الآن</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🛏️</div>
+                    <h3>مكافحة بق الفراش</h3>
+                    <p>تخلص من بق الفراش نهائياً! نستخدم المعالجة الحرارية والبخار عالي الحرارة</p>
+                    <ul class="service-list">
+                        <li>✅ معالجة حرارية</li>
+                        <li>✅ قضاء على البيض</li>
+                        <li>✅ ضمان 6 أشهر</li>
+                    </ul>
+                    <a href="https://wa.me/50255870?text=مرحباً، أريد حجز خدمة مكافحة بق الفراش" class="service-btn">📱
+                        احجز الآن</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🐀</div>
+                    <h3>مكافحة القوارض</h3>
+                    <p>تخلص من الفئران والجرذان بطرق آمنة وفعالة مع سد جميع نقاط الدخول</p>
+                    <ul class="service-list">
+                        <li>✅ طعوم آمنة</li>
+                        <li>✅ سد المداخل</li>
+                        <li>✅ متابعة مستمرة</li>
+                    </ul>
+                    <a href="https://wa.me/50255870?text=مرحباً، أريد حجز خدمة مكافحة القوارض" class="service-btn">📱
+                        احجز الآن</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🦟</div>
+                    <h3>مكافحة البعوض والذباب</h3>
+                    <p>رش ضبابي متطور للقضاء على البعوض والذباب وحماية عائلتك من الأمراض</p>
+                    <ul class="service-list">
+                        <li>✅ رش ضبابي</li>
+                        <li>✅ بدون رائحة</li>
+                        <li>✅ حماية شهرية</li>
+                    </ul>
+                    <a href="https://wa.me/50255870?text=مرحباً، أريد حجز خدمة مكافحة البعوض" class="service-btn">📱
+                        احجز الآن</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🏚️</div>
+                    <h3>مكافحة النمل الأبيض</h3>
+                    <p>حماية منزلك من النمل الأبيض المدمر! حقن الأساسات والجدران بتقنية متطورة</p>
+                    <ul class="service-list">
+                        <li>✅ حقن جداري</li>
+                        <li>✅ حماية 10 سنوات</li>
+                        <li>✅ ضمان شامل</li>
+                    </ul>
+                    <a href="https://wa.me/50255870?text=مرحباً، أريد حجز خدمة مكافحة النمل الأبيض"
+                        class="service-btn">📱 احجز الآن</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">💬 آراء عملائنا 💬</span>
+                <h2 class="section-title">ماذا يقول عملاؤنا السعداء؟</h2>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p>"خدمة ممتازة! استخدموا الجل السحري وتخلصنا من الصراصير نهائياً. والأهم إنه آمن على أطفالي 👍"</p>
+                    <div class="author"><span>👨</span>
+                        <div><strong>أحمد محمد</strong><span>صاحب منزل</span></div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p>"أفضل شركة تعاملت معها! ما اضطريت أطلع من البيت وما في أي رائحة. شغل احترافي 100% 🔥"</p>
+                    <div class="author"><span>👩</span>
+                        <div><strong>فاطمة العلي</strong><span>ربة منزل</span></div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p>"سعر ممتاز وخدمة أفضل! الفني شرحلي كل شي وأعطاني ضمان سنة. أنصح الكل فيهم 💯"</p>
+                    <div class="author"><span>👨‍💼</span>
+                        <div><strong>خالد السعيد</strong><span>صاحب مطعم</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="articles" id="articles">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">📚 نصائح ذهبية 📚</span>
+                <h2 class="section-title">كيف تحمي منزلك من الحشرات؟</h2>
+            </div>
+            <div class="articles-grid">
+                <article class="article-card">
+                    <div class="article-icon">🪳</div>
+                    <div class="article-content">
+                        <h3>لماذا الجل السحري أفضل من الرش التقليدي؟</h3>
+                        <ul>
+                            <li>✅ فعالية 100% خلال 48 ساعة</li>
+                            <li>✅ يقضي على البيض والحشرات البالغة</li>
+                            <li>✅ بدون رائحة أو مخاطر صحية</li>
+                            <li>✅ آمن على الأطفال والحيوانات</li>
+                        </ul>
+                    </div>
+                </article>
+                <article class="article-card">
+                    <div class="article-icon">🏠</div>
+                    <div class="article-content">
+                        <h3>5 أسرار للحفاظ على منزل خالي من الحشرات</h3>
+                        <ul>
+                            <li>🔑 نظافة المطبخ يومياً</li>
+                            <li>🔑 سد الشقوق والفتحات</li>
+                            <li>🔑 عدم ترك بقايا الطعام</li>
+                            <li>🔑 التهوية الجيدة للمنزل</li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-final">
+        <div class="container">
+            <div class="cta-content">
+                <div class="cta-icon">📱</div>
+                <h2>تواصل معنا الآن واحصل على استشارة مجانية!</h2>
+                <p>فريقنا جاهز للإجابة على استفساراتك على مدار الساعة</p>
+                <div class="cta-buttons">
+                    <a href="https://wa.me/50255870?text=مرحباً، أريد استشارة مجانية" class="btn btn-white glow-btn">💬
+                        واتساب: 50255870</a>
+                    <a href="tel:50255870" class="btn btn-outline">📞 اتصل الآن</a>
+                </div>
+                <div class="trust-icons">
+                    <span>🔒 خصوصية تامة</span>
+                    <span>⚡ رد سريع</span>
+                    <span>💰 أسعار منافسة</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">📧 تواصل معنا 📧</span>
+                <h2 class="section-title">نحن في خدمتك دائماً</h2>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="info-card">
+                        <div class="info-icon">📞</div>
+                        <div>
+                            <h4>اتصل بنا</h4><a href="tel:50255870">50255870</a>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">💬</div>
+                        <div>
+                            <h4>واتساب</h4><a href="https://wa.me/50255870">50255870</a>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">⏰</div>
+                        <div>
+                            <h4>متاحين</h4><span>24 ساعة / 7 أيام</span>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">📍</div>
+                        <div>
+                            <h4>نغطي</h4><span>جميع المناطق</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group"><label>الاسم</label><input type="text" id="name"
+                                    placeholder="اسمك الكريم" required></div>
+                            <div class="form-group"><label>الهاتف</label><input type="tel" id="phone"
+                                    placeholder="رقم الهاتف" required></div>
+                        </div>
+                        <div class="form-group"><label>الخدمة</label><select id="service" required>
+                                <option value="">اختر الخدمة المطلوبة</option>
+                                <option value="صراصير - جل سحري">مكافحة الصراصير - جل سحري</option>
+                                <option value="نمل">مكافحة النمل</option>
+                                <option value="بق الفراش">مكافحة بق الفراش</option>
+                                <option value="قوارض">مكافحة القوارض</option>
+                                <option value="بعوض">مكافحة البعوض</option>
+                                <option value="نمل أبيض">مكافحة النمل الأبيض</option>
+                                <option value="شاملة">مكافحة شاملة</option>
+                            </select></div>
+                        <div class="form-group"><label>ملاحظات</label><textarea id="message" rows="3"
+                                placeholder="اوصف مشكلتك باختصار..."></textarea></div>
+                        <button type="submit" class="btn btn-submit">📱 إرسال عبر واتساب</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo"><span>🛡️</span>
+                        <div>
+                            <h3>النظافه الذهبيه</h3><span>خبراء مكافحة الحشرات</span>
+                        </div>
+                    </div>
+                    <p>الشركة الرائدة في مكافحة الحشرات بأحدث التقنيات العالمية. جل سحري ألماني، آمن على الأطفال، بدون
+                        مغادرة المنزل.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>خدماتنا</h4>
+                    <ul>
+                        <li>🪳 مكافحة الصراصير</li>
+                        <li>🐜 مكافحة النمل</li>
+                        <li>🐀 مكافحة القوارض</li>
+                        <li>🦟 مكافحة البعوض</li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>تواصل معنا</h4>
+                    <p><a href="tel:50255870">📞 50255870</a></p>
+                    <p><a href="https://wa.me/50255870">💬 واتساب</a></p>
+                    <p>⏰ 24/7</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2024 شركة النظافه الذهبيه. جميع الحقوق محفوظة 🛡️</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="floating-buttons">
+        <a href="tel:50255870" class="floating-btn call-btn" title="اتصل بنا">📞</a>
+        <a href="https://wa.me/50255870?text=مرحباً، أريد الاستفسار عن خدماتكم" class="floating-btn whatsapp-btn"
+            title="واتساب">💬</a>
     </div>
-  </header>
-
-  <!-- Hero Section -->
-  <section class="hero">
-    <div class="hero-content">
-      <h2>خبراء مكافحة الحشرات في الكويت</h2>
-      <p>حلول سريعة وآمنة وفعالة لجميع أنواع الحشرات</p>
-      <div class="cta-buttons">
-        <a href="https://wa.me/96550255870" class="btn btn-primary">
-          <i class="fab fa-whatsapp"></i> واتساب مباشر
-        </a>
-        <a href="tel:+96550255870" class="btn btn-secondary">
-          <i class="fas fa-phone"></i> اتصل الآن
-        </a>
-      </div>
-    </div>
-    <div class="hero-image">
-      <img src="images/hero-pest-control.svg" alt="معدات مكافحة الحشرات">
-    </div>
-  </section>
-
-  <!-- Quick Services Section -->
-  <section class="services-quick">
-    <div class="container">
-      <h2>خدماتنا الرئيسية</h2>
-      <div class="services-grid">
-        <div class="service-card">
-          <img src="images/pests/cockroach.svg" alt="الصراصير">
-          <h3>الصراصير</h3>
-          <p>طرق آمنة وفعالة للقضاء على الصراصير</p>
-          <a href="articles/cockroaches.html" class="btn btn-small">تعرف أكثر</a>
-        </div>
-        <div class="service-card">
-          <img src="images/pests/ant.svg" alt="النمل">
-          <h3>النمل</h3>
-          <p>حلول شاملة للتخلص من النمل</p>
-          <a href="articles/ants.html" class="btn btn-small">تعرف أكثر</a>
-        </div>
-        <div class="service-card">
-          <img src="images/pests/bedbug.svg" alt="بق الفراش">
-          <h3>بق الفراش</h3>
-          <p>معالجة فورية وآمنة لبق الفراش</p>
-          <a href="articles/bed-bugs.html" class="btn btn-small">تعرف أكثر</a>
-        </div>
-        <div class="service-card">
-          <img src="images/pests/beetle.svg" alt="الخنافس">
-          <h3>الخنافس</h3>
-          <p>مكافحة متخصصة لجميع أنواع الخنافس</p>
-          <a href="articles/beetles.html" class="btn btn-small">تعرف أكثر</a>
-        </div>
-        <div class="service-card">
-          <img src="images/pests/mouse.svg" alt="الفئران">
-          <h3>الفئران</h3>
-          <p>خدمات متخصصة للقضاء على الفئران</p>
-          <a href="articles/mice.html" class="btn btn-small">تعرف أكثر</a>
-        </div>
-        <div class="service-card">
-          <img src="images/pests/spider.svg" alt="العناكب">
-          <h3>العناكب</h3>
-          <p>حلول آمنة وسريعة للتخلص من العناكب</p>
-          <a href="articles/spiders.html" class="btn btn-small">تعرف أكثر</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Video Section -->
-  <section class="video-section">
-    <div class="container">
-      <h2>شاهد خدماتنا في العمل</h2>
-      <div class="video-grid">
-        <div class="video-item">
-          <video controls poster="images/gallery/Cockroachgelapplication.jpg">
-            <source src="videos/video1.mp4" type="video/mp4">
-            متصفحك لا يدعم تشغيل الفيديو.
-          </video>
-        </div>
-        <div class="video-item">
-          <video controls>
-            <source src="videos/video2.mp4" type="video/mp4">
-            متصفحك لا يدعم تشغيل الفيديو.
-          </video>
-        </div>
-        <div class="video-item">
-          <video controls>
-            <source src="videos/video3.mp4" type="video/mp4">
-            متصفحك لا يدعم تشغيل الفيديو.
-          </video>
-        </div>
-        <div class="video-item">
-          <video controls>
-            <source src="videos/video4.mp4" type="video/mp4">
-            متصفحك لا يدعم تشغيل الفيديو.
-          </video>
-        </div>
-        <div class="video-item">
-          <video controls>
-            <source src="videos/video5.mp4" type="video/mp4">
-            متصفحك لا يدعم تشغيل الفيديو.
-          </video>
-        </div>
-        <div class="video-item">
-          <video controls>
-            <source src="videos/video6.mp4" type="video/mp4">
-            متصفحك لا يدعم تشغيل الفيديو.
-          </video>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Why Choose Us -->
-  <section class="why-us">
-    <div class="container">
-      <h2>لماذا تختار النقاء؟</h2>
-      <div class="features-grid">
-        <div class="feature">
-          <i class="fas fa-check-circle"></i>
-          <h3>آمن على الأطفال والحيوانات</h3>
-          <p>نستخدم مبيدات آمنة معتمدة دوليًا</p>
-        </div>
-        <div class="feature">
-          <i class="fas fa-bolt"></i>
-          <h3>نتائج سريعة وفعالة</h3>
-          <p>قضاء تام على الحشرات بكفاءة عالية</p>
-        </div>
-        <div class="feature">
-          <i class="fas fa-home"></i>
-          <h3>خدمة من المنزل</h3>
-          <p>لا حاجة للخروج، نأتي إليك</p>
-        </div>
-        <div class="feature">
-          <i class="fas fa-clock"></i>
-          <h3>خدمة سريعة 24/7</h3>
-          <p>متاح طول الوقت لخدمتك</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Testimonials Carousel -->
-  <section class="testimonials">
-    <div class="container">
-      <h2>آراء عملائنا</h2>
-      <div class="carousel">
-        <div class="carousel-item active">
-          <p>"خدمة ممتازة وسريعة جداً. تخلصت من الصراصير بشكل نهائي"</p>
-          <h4>أحمد محمد</h4>
-          <span>العاصمة</span>
-        </div>
-        <div class="carousel-item">
-          <p>"فريق احترافي ومتعاون جداً. أنصح الجميع بهم"</p>
-          <h4>فاطمة علي</h4>
-          <span>الفروانية</span>
-        </div>
-        <div class="carousel-item">
-          <p>"أفضل خدمة مكافحة حشرات جربتها. آمنة وفعالة جداً"</p>
-          <h4>سارة خالد</h4>
-          <span>الجهراء</span>
-        </div>
-      </div>
-      <div class="carousel-controls">
-        <button class="carousel-prev" id="carouselPrev">
-          <i class="fas fa-chevron-right"></i>
-        </button>
-        <div class="carousel-dots" id="carouselDots"></div>
-        <button class="carousel-next" id="carouselNext">
-          <i class="fas fa-chevron-left"></i>
-        </button>
-      </div>
-    </div>
-  </section>
-
-  <!-- CTA Section -->
-  <section class="cta-section">
-    <div class="container">
-      <h2>احصل على استشارة مجانية الآن</h2>
-      <p>تواصل معنا وسنساعدك في حل جميع مشاكلك مع الحشرات</p>
-      <div class="cta-buttons">
-        <a href="https://wa.me/96550255870" class="btn btn-primary">واتساب</a>
-        <a href="tel:+96550255870" class="btn btn-secondary">اتصل</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="container">
-      <div class="footer-content">
-        <div class="footer-section">
-          <h3>النقاء</h3>
-          <p>مركز متخصص في مكافحة الحشرات بالكويت</p>
-        </div>
-        <div class="footer-section">
-          <h3>تواصل معنا</h3>
-          <p>الهاتف: 50255870</p>
-          <p>البريد: info@alnaqaa.com</p>
-          <p>العنوان: 82JC+H9P، شارع 231، مدينة الكويت</p>
-        </div>
-        <div class="footer-section">
-          <h3>تابعنا</h3>
-          <div class="social-links">
-            <a href="https://wa.me/96550255870" title="واتساب"><i class="fab fa-whatsapp"></i></a>
-            <a href="https://www.instagram.com/american9center/" target="_blank" title="إنستجرام"><i class="fab fa-instagram"></i></a>
-            <a href="#" title="فيسبوك"><i class="fab fa-facebook"></i></a>
-          </div>
-        </div>
-      </div>
-      <div class="footer-bottom">
-        <p>&copy; 2024 النقاء لمكافحة الحشرات. جميع الحقوق محفوظة.</p>
-      </div>
-    </div>
-  </footer>
-
-  <aside aria-label="أدوات التواصل السريع">
-    <!-- Floating Action Buttons (FAB) -->
-  <div class="fab-container">
-    <a href="https://wa.me/96550255870" class="fab fab-whatsapp" title="واتساب">
-      <i class="fab fa-whatsapp"></i>
-    </a>
-    <a href="tel:+96550255870" class="fab fab-call" title="اتصل">
-      <i class="fas fa-phone"></i>
-    </a>
-  </div>
-
-  <!-- Back to Top -->
-  <a href="#" class="back-to-top" title="العودة للأعلى">
-    <i class="fas fa-arrow-up"></i>
-  </a>
-  </aside>
-
-  <!-- Notification Container -->
-  <div id="notificationContainer"></div>
-
-  <script src="js/main.js"></script>
-  <script src="js/notifications.js"></script>
+    <a href="#home" class="back-to-top" id="backToTop">⬆️</a>
+    <script src="script.js"></script>
 </body>
+
 </html>
